@@ -9,6 +9,10 @@ body {
 a {
     text-decoration: none;
 }
+.game{
+    background-color: #ffffff;
+
+}
 
 /* HEADER */
 .header {
@@ -108,6 +112,11 @@ a {
     padding: 70px 60px;
     background: #111;
     text-align: center;
+    img{
+        width:400px;
+        height:auto;
+    }
+    
 }
 
 .section-title {
@@ -122,7 +131,14 @@ a {
     gap: 40px;
     height:fit-content;
     width:auto;
+    img{
+            width: 400px;
+            height: auto;
+        }
 }
+
+
+
 
 .feature-box {
     background: #1a1a1a;
@@ -131,7 +147,12 @@ a {
     border: 2px solid #333;
     transition: 0.3s;
     height:100%;
-    width:auto;
+    width: auto;
+    img{
+            width: 400px;
+            height: auto;
+        }
+    
     
 }
 
@@ -174,7 +195,75 @@ a {
     }
 }
 .game{ img { max-width: 100%; height: auto; }
+/* home game feature */
+
+
+}   
+.home-feature img{
+    width:50%;
+    height:fit-content;}
+.home-feature h1{
+        text-align: center;
+        color: #b4b4b4f4;
+        
+        font: size 50%; ;
+
+    }
+
+.game-feature img{width:auto;
+    height:auto;
     
 }
+.home-feature img{width: 50%;
+    height: fit-content;
+
+}
+.home-1feature img{ width:70%;
+    height:auto;
+
+}
+.home-feature{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 250px;
+    color: #000;
+    padding: 10%;
+    font-size: medium;
+    
+}
+
+.home1-feature{ color: #000;
+    text-align: center;
+    padding: 10px;
+
+
+}
+/* for troop page */
+.troop1{width: auto;
+    height:auto
+   
+}
+/* about page */
+
+
+
+/* .about-feature{
+    background-image: url("about_img.png");
+    background-size: auto;
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    background-position: center center; 
+    background-attachment: fixed; 
+    background-color: #f0f0f0; 
+   
+} */
+.about-feature h2{ 
+    text-align: center ;
+    text-transform: uppercase;
+    
+}
+   
+
+
 
 
